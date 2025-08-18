@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Positive Scenarios for Login Feature">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Check Positive Scenario for login feature in SwagLabs Web App">
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="validateLoginToSwagLabsUsingValidCredientials_P"/>
+                </methods>
+            </class>
+                <class name="testcases.TC02_inventory">
+            <methods>
+                <include name="validatecorrectpage"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
