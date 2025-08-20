@@ -23,8 +23,8 @@ public class TestBase {
 
         getDriver().get("https://www.saucedemo.com/v1/");}*/
 
-   /* @AfterTest
+    @AfterTest
     public void tearDown(){
         getDriver().quit();
-    }*/
+    }
 }

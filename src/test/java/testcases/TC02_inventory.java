@@ -14,7 +14,7 @@ public class TC02_inventory extends TestBase{
     String password = "secret_sauce";
     @Test(priority = 1 , description="validate user navigated to the correct page after login")
     public void validatecorrectpage(){
-        //login
+
         loginPage=new P01_LoginPage(getDriver());
         inventoryPage=new P02_inventoryPage(getDriver());
         //loginPage.login(username,password);
